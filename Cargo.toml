@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2026 The name-to-handle-at-rs authors
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+[package]
+name = "name-to-handle-at"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["The name-to-handle-at-rs authors"]
+description = "Safe Rust bindings for Linux name_to_handle_at and open_by_handle_at syscalls"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/swick/name-to-handle-at-rs"
+homepage = "https://github.com/swick/name-to-handle-at-rs"
+documentation = "https://docs.rs/name-to-handle-at"
+readme = "README.md"
+keywords = ["name_to_handle_at", "open_by_handle_at", "linux", "filesystem", "inode"]
+categories = ["os::linux-apis"]
+
+[dependencies]
+libc = { version = "0.2" }
